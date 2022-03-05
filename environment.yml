@@ -1,0 +1,7 @@
+# run: conda env create --file environment.yml
+name: poi
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - -r requirements.txt
